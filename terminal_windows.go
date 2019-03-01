@@ -7,7 +7,7 @@ import (
 	"os"
 	"syscall"
 
-	sequences "github.com/konsorten/go-windows-terminal-sequences"
+	sequences "github.com/Beeketing/go-windows-terminal-sequences"
 )
 
 func initTerminal(w io.Writer) {
